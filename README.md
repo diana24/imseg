@@ -19,6 +19,8 @@ The algorithm performs the following steps:
 <br />
 The result is an image in which the tumor and non-tumor areas are colored differently.
 <br />
+![initial](/results/im13.png)![final](/results/im14.png)
+<br />
 ## Road detection
 <br />
 [Link to slides](https://drive.google.com/file/d/0B4H1TGx6R0MOa1dTd2ZRQUxuSU0/view?ths=true)
