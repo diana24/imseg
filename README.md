@@ -12,7 +12,7 @@ The algorithm performs the following steps:
 * apply median filter
 * perform histogram thresholding with single threshold (tumor/non-tumor)
 * perform morphological operations with a parameter tuned according to image resolution, to avoid false positives:
-  * create morfological, disk-shaped element
+  * create morphological, disk-shaped element
   * erode
   * dilate
 
