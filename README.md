@@ -34,7 +34,6 @@ The implementation is based on an algorithm described in [this article](http://c
 * extract the threshold from the new channel
 * perform segmentation according to the threshold
 <br />
-Histogram of each channel is bimodal and similar to the following:<br/>
 
 <img src="https://github.com/diana24/imseg/blob/master/results/hist.jpg" width="400">
 
@@ -42,8 +41,11 @@ Histogram of each channel is bimodal and similar to the following:<br/>
 Segmentation results: <br/>
 
 
-| ![initial](/results/im5.jpg)   | ![final](/results/im6.jpg)    |
-| ------------------------------ | ----------------------------- |
+| Histogram of each channel is bimodal: | Initial image  | Segmentation output    |
+| ------------------------------ | ------------------------------ | ----------------------------- |
+| ![initial](/results/hist.jpg) | ![initial](/results/im5.jpg)   | ![final](/results/im6.jpg)    |
 
 <br />
 [Link to slides](https://docs.google.com/presentation/d/1_LVbU-OBlyYQvu5WQzh9Ao-zSnWZxjfL0Akqo4eKLDo/edit#slide=id.p6)
+<br/>
+[Link to documentation](https://docs.google.com/document/d/1s2jGruuNpIT1Oc8V_m1pZOBtQHPYrXhZUjNA0ij5-7o/edit)
