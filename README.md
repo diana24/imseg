@@ -35,7 +35,10 @@ The implementation is based on an algorithm described in [this article](http://c
 * perform segmentation according to the threshold
 <br />
 Histogram of each channel is bimodal and similar to the following:<br/>
-![bimodal hist](/results/hist.jpg)
+
+| ![bimodal hist](/results/hist.jpg)   |
+| ------------------------------------ |
+
 <br />
 Segmentation results: <br/>
 
