@@ -22,7 +22,7 @@ The result is displayed as an image in which the tumor and non-tumor areas are c
 ![initial](/results/im7.png)![final](/results/im8.png)
 <br />
 ## Road detection
-The implementation is based on an algorithm described in [this article](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.28.1325&rep=rep1&type=pdf), used by robot vehicles and automated driving systems. The idea is to segment an image in two areas: road and non-road, considering that road areas have lower saturation and intensity then the background. The steps are:
+The implementation is based on an algorithm described in [this article](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.28.1325&rep=rep1&type=pdf), used by robot vehicles and automated driving systems. The idea is to segment an image in two areas: road and non-road, considering that road areas have lower saturation and intensity than the background. The steps are:
 * convert the image to HSI color space, more similar to human vision
 * build the bimodal histograms for all three chanels - H, S, I
 * build a fourth, additional channel as the difference of normalized saturation and intensity
