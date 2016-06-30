@@ -19,7 +19,7 @@ The algorithm uses the assumption that the tumor area has the highest intensity 
 <br />
 The result is displayed as an image in which the tumor and non-tumor areas are colored differently. Additionally, in the tumor detection step we added a parameter related to image resolution and tuned using a constant, to control the size of the detected morphological element (tumor), thus avoiding false positive detections.
 <br />
-![initial](/results/im13.png)![final](/results/im14.png)
+![initial](/results/im7.png)![final](/results/im8.png)
 <br />
 ## Road detection
 <br />
