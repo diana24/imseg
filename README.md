@@ -34,7 +34,6 @@ The implementation is based on an algorithm described in [this article](http://c
 * extract the threshold from the new channel
 * perform segmentation according to the threshold
 <br />
-Segmentation results: <br/>
 
 | Histogram of each channel is bimodal: | Initial image  | Segmentation output    |
 | ------------------------------ | ------------------------------ | ----------------------------- |
