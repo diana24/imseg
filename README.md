@@ -20,9 +20,8 @@ The algorithm uses the assumption that the tumor area has the highest intensity 
 The result is displayed as an image in which the tumor and non-tumor areas are colored differently. Additionally, in the tumor detection step we added a parameter related to image resolution and tuned using a constant, to control the size of the detected morphological element (tumor), thus avoiding false positive detections.
 <br />
 
-| | |
-| :---:         |     :---:      |
 | ![initial](/results/im7.png)   | ![final](/results/im8.png)    |
+| ------------------------------ | ----------------------------- |
 
 
 
@@ -41,9 +40,8 @@ Histogram of each channel is bimodal and similar to the following:<br/>
 Segmentation results: <br/>
 
 
-| | |
-| :---:         |     :---:      |
 | ![initial](/results/im5.jpg)   | ![final](/results/im6.jpg)    |
+| ------------------------------ | ----------------------------- |
 
 <br />
 [Link to slides](https://drive.google.com/file/d/0B4H1TGx6R0MOa1dTd2ZRQUxuSU0/view?ths=true)
