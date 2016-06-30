@@ -36,8 +36,7 @@ The implementation is based on an algorithm described in [this article](http://c
 <br />
 Histogram of each channel is bimodal and similar to the following:<br/>
 
-![bimodal hist](/results/hist.jpg)
-<img src="https://github.com/diana24/imseg/blob/master/results/hist.jpg" width="200">
+<img src="https://github.com/diana24/imseg/blob/master/results/hist.jpg" width="400">
 
 <br />
 Segmentation results: <br/>
