@@ -46,4 +46,4 @@ Segmentation results: <br/>
 | ------------------------------ | ----------------------------- |
 
 <br />
-[Link to slides](https://drive.google.com/file/d/0B4H1TGx6R0MOa1dTd2ZRQUxuSU0/view?ths=true)
+[Link to slides](https://docs.google.com/presentation/d/1_LVbU-OBlyYQvu5WQzh9Ao-zSnWZxjfL0Akqo4eKLDo/edit#slide=id.p6)
