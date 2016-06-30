@@ -6,9 +6,9 @@ The algorithm aims to retrieve brain tumors from MRI scans. The method is adapte
 <br />
 The algorithm uses the assumption that the tumor area has the highest intensity in the image. It performs the following steps:
 * convert the image to grayscale
-* apply a noise reduction filter
-* apply a gaussian low-pass filter to smooth the image
-* apply a butterworth high-pass filter for sharpening
+* apply noise reduction filters:
+ * gaussian low-pass filter to smooth the image
+ * butterworth high-pass filter for sharpening
 * apply median filter to remove salt-and-pepper noise resulted from previous step
 * perform histogram thresholding with single threshold (tumor/non-tumor)
 * perform morphological operations - actual tumor detection step:
