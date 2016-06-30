@@ -36,7 +36,7 @@ The implementation is based on an algorithm described in [this article](http://c
 <br />
 Histogram of each channel is bimodal and similar to the following:<br/>
 
-![bimodal hist](/results/hist.jpg)
+![bimodal hist](/results/hist.jpg =200x200)
 
 <br />
 Segmentation results: <br/>
