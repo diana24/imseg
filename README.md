@@ -11,13 +11,13 @@ The algorithm uses the assumption that the tumor area has the highest intensity 
 * apply a butterworth high-pass filter for sharpening
 * apply median filter to remove salt-and-pepper noise resulted from previous step
 * perform histogram thresholding with single threshold (tumor/non-tumor)
-* perform morphological operations with a parameter tuned according to image resolution, to avoid false positives:
+* perform morphological operations - actual tumor detection step:
   * create morphological, disk-shaped element
   * erode the image, to separate the tumor area
   * dilate the image, to smooth the edges
 
 <br />
-The result is displayed as an image in which the tumor and non-tumor areas are colored differently.
+The result is displayed as an image in which the tumor and non-tumor areas are colored differently. Additionally, in the tumor detection step we added a parameter related to image resolution and tuned using a constant, to control the size of the detected morphological element (tumor), thus avoiding false positive detections.
 <br />
 ![initial](/results/im13.png)![final](/results/im14.png)
 <br />
