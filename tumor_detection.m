@@ -8,8 +8,6 @@ clc;
 clear;
 addpath('lib');
 
-%run using matlab /r "img=imagename;n_col=number;clustering"
-
 inputImg=input('Enter path to an image file: ','s');  % 'images/filename'
 inputImg = strcat('images/',inputImg)
 
@@ -22,9 +20,9 @@ if channels > 1
 	grayImage = rgb2gray(img);
 end
 
-%grayImage = imadjust(grayImage);
+grayImage = imadjust(grayImage);
 %grayImage = imfilter(double(grayImage), fspecial('log',50,10));
-%figure, imshow(img), title('Grayscale image');
+figure, imshow(img), title('Grayscale image');
 
 
 % Step 2 - applying filters for noise reduction
@@ -35,7 +33,7 @@ D0=0.5*PQ(1);
 n=2;
 Hp1 = lpfilter('gaussian', PQ(1), PQ(2), D0, n);
 lpfImage = dftfilt(grayImage, Hp1)
-figure, imshow(lpfImage), title('Low-pass filter');
+%figure, imshow(lpfImage), title('Low-pass filter');
 
 % High-pass
 D0=0.01*PQ(1);
@@ -89,7 +87,7 @@ aboveThresh = grayImage > thresh; % get all pixels above threshold
 
 % Step 4 - morphological operations
 abval = min(rows,columns)/max(rows,columns)
-srel_param = min(rows,columns)/(100*abs(abval));
+srel_param = min(rows,columns)/(70*abs(abval));
 %srel_param = min(rows,columns)/100;
 se = strel('disk',double(int8(srel_param)));        
 erodedBW = imerode(aboveThresh,se);

@@ -25,12 +25,12 @@ H(b>g)=2*pi-H(b>g);
 H=H/(2*pi);
 S=1-3.*(min(min(r,g),b))./(r+g+b+eps);
 hsi=cat(3,H,S,I);
-figure, imshow(hsi);
+%figure, imshow(hsi);
 
 % All histograms are bimodal, with two peaks, one for road and one for background
-figure, imhist(S);
-figure, imhist(I);
-figure, imhist(H);
+%figure, imhist(S);
+%figure, imhist(I);
+%figure, imhist(H);
 
 nrows = size(hsi,1); % image height
 ncols = size(hsi,2); % image width
